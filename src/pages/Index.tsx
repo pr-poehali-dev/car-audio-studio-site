@@ -78,7 +78,7 @@ export default function Index() {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
             <Card className="bg-slate-800/80 border-slate-700 p-8 hover:bg-slate-700/80 transition-all duration-300 group">
               <div className="text-blue-500 mb-6 group-hover:scale-110 transition-transform">
                 <Icon name="Radio" size={48} />
@@ -150,6 +150,78 @@ export default function Index() {
                 </li>
               </ul>
             </Card>
+
+            <Card className="bg-slate-800/80 border-slate-700 p-8 hover:bg-slate-700/80 transition-all duration-300 group">
+              <div className="text-blue-500 mb-6 group-hover:scale-110 transition-transform">
+                <Icon name="ShieldCheck" size={48} />
+              </div>
+              <h3 className="text-2xl font-orbitron font-bold text-white mb-4">Шумоизоляция</h3>
+              <p className="text-slate-400 mb-6">
+                Профессиональная звукоизоляция автомобиля для максимального комфорта
+              </p>
+              <ul className="space-y-2 text-slate-300">
+                <li className="flex items-center">
+                  <Icon name="Check" size={16} className="text-blue-500 mr-2" />
+                  Изоляция дверей и пола
+                </li>
+                <li className="flex items-center">
+                  <Icon name="Check" size={16} className="text-blue-500 mr-2" />
+                  Виброизоляция кузова
+                </li>
+                <li className="flex items-center">
+                  <Icon name="Check" size={16} className="text-blue-500 mr-2" />
+                  Акустические материалы
+                </li>
+              </ul>
+            </Card>
+
+            <Card className="bg-slate-800/80 border-slate-700 p-8 hover:bg-slate-700/80 transition-all duration-300 group">
+              <div className="text-blue-500 mb-6 group-hover:scale-110 transition-transform">
+                <Icon name="Radar" size={48} />
+              </div>
+              <h3 className="text-2xl font-orbitron font-bold text-white mb-4">Парктроники</h3>
+              <p className="text-slate-400 mb-6">
+                Системы помощи при парковке с звуковыми и визуальными сигналами
+              </p>
+              <ul className="space-y-2 text-slate-300">
+                <li className="flex items-center">
+                  <Icon name="Check" size={16} className="text-blue-500 mr-2" />
+                  Передние и задние датчики
+                </li>
+                <li className="flex items-center">
+                  <Icon name="Check" size={16} className="text-blue-500 mr-2" />
+                  LED дисплеи
+                </li>
+                <li className="flex items-center">
+                  <Icon name="Check" size={16} className="text-blue-500 mr-2" />
+                  Интеграция с штатной системой
+                </li>
+              </ul>
+            </Card>
+
+            <Card className="bg-slate-800/80 border-slate-700 p-8 hover:bg-slate-700/80 transition-all duration-300 group">
+              <div className="text-blue-500 mb-6 group-hover:scale-110 transition-transform">
+                <Icon name="Camera" size={48} />
+              </div>
+              <h3 className="text-2xl font-orbitron font-bold text-white mb-4">Камеры заднего хода</h3>
+              <p className="text-slate-400 mb-6">
+                Системы видеонаблюдения для безопасной парковки и маневрирования
+              </p>
+              <ul className="space-y-2 text-slate-300">
+                <li className="flex items-center">
+                  <Icon name="Check" size={16} className="text-blue-500 mr-2" />
+                  HD камеры с ночным видением
+                </li>
+                <li className="flex items-center">
+                  <Icon name="Check" size={16} className="text-blue-500 mr-2" />
+                  Динамические линии разметки
+                </li>
+                <li className="flex items-center">
+                  <Icon name="Check" size={16} className="text-blue-500 mr-2" />
+                  Интеграция с мультимедиа
+                </li>
+              </ul>
+            </Card>
           </div>
         </div>
       </section>
@@ -166,7 +238,7 @@ export default function Index() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="group cursor-pointer">
               <div className="relative overflow-hidden rounded-lg">
                 <img
@@ -208,6 +280,51 @@ export default function Index() {
                 <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-all duration-300">
                   <h3 className="text-white font-orbitron font-bold text-lg">Сабвуфер</h3>
                   <p className="text-slate-300 text-sm">Мощная басовая система в багажнике</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="group cursor-pointer">
+              <div className="relative overflow-hidden rounded-lg">
+                <img
+                  src="/img/e94f5d95-3fdb-4528-b1a2-9c81aebfd18a.jpg"
+                  alt="Шумоизоляция автомобиля"
+                  className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                  <h3 className="text-white font-orbitron font-bold text-lg">Шумоизоляция</h3>
+                  <p className="text-slate-300 text-sm">Комплексная звукоизоляция салона</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="group cursor-pointer">
+              <div className="relative overflow-hidden rounded-lg">
+                <img
+                  src="/img/8cc7b842-9b55-4855-81b7-34763f01bfcd.jpg"
+                  alt="Парктроники и камеры"
+                  className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                  <h3 className="text-white font-orbitron font-bold text-lg">Парктроники</h3>
+                  <p className="text-slate-300 text-sm">Системы помощи при парковке</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="group cursor-pointer">
+              <div className="relative overflow-hidden rounded-lg">
+                <img
+                  src="/img/8cc7b842-9b55-4855-81b7-34763f01bfcd.jpg"
+                  alt="Камеры заднего хода"
+                  className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                  <h3 className="text-white font-orbitron font-bold text-lg">Камеры заднего хода</h3>
+                  <p className="text-slate-300 text-sm">HD видеонаблюдение для безопасности</p>
                 </div>
               </div>
             </div>
@@ -520,7 +637,9 @@ export default function Index() {
                 <li><a href="#" className="hover:text-blue-400 transition-colors">Автомагнитолы</a></li>
                 <li><a href="#" className="hover:text-blue-400 transition-colors">Колонки</a></li>
                 <li><a href="#" className="hover:text-blue-400 transition-colors">Сабвуферы</a></li>
-                <li><a href="#" className="hover:text-blue-400 transition-colors">Звукоизоляция</a></li>
+                <li><a href="#" className="hover:text-blue-400 transition-colors">Шумоизоляция</a></li>
+                <li><a href="#" className="hover:text-blue-400 transition-colors">Парктроники</a></li>
+                <li><a href="#" className="hover:text-blue-400 transition-colors">Камеры заднего хода</a></li>
               </ul>
             </div>
             
